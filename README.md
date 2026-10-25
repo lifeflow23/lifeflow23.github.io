@@ -1,9 +1,12 @@
-# LifeFlow mobile
+# LifeFlow AI
 
-Arabic local-first personal organizer. Open the deployed page in Safari or Chrome, then add it to the Home Screen. Records remain in this browser's IndexedDB. No desktop computer, LAN service, cloud database or external AI is required for normal use. Cross-device sync is not enabled.
+Mobile-first Arabic personal organizer: https://lifeflow23.github.io/
 
-This repository contains the production build. Editable source is in lifeflow-source.zip. Install dependencies with pnpm install --frozen-lockfile. Build with LIFEFLOW_BASE_PATH=/lifeflow/ and pnpm build. Use GitHub Pages: deploy from branch main, root folder.
+GitHub Pages: main branch, root folder. Default build base is /.
+Editable source: lifeflow-source.zip. Run pnpm install --frozen-lockfile then pnpm build.
 
-The initial online visit downloads app assets. Actual installed iPhone offline behavior still needs device verification. Export JSON backups from settings; clearing site data can remove local records.
+Records stay in this browser's IndexedDB. No desktop or local network required. Cross-device sync is not enabled. Export backups from Settings. Data from the previous origin must be exported there and imported at the new URL; it does not migrate automatically.
 
-Automated rules suite: 234 passing cases. Deployment package includes no user records, credentials, backups, or test database. Asset attributions: ASSET-LICENSES.md.
+234 automated checks passed. Responsive browser checks completed; physical iPhone installation, keyboard and offline checks remain pending.
+
+No user records or credentials are included. See ASSET-LICENSES.md.
