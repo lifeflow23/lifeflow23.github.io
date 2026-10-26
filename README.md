@@ -7,6 +7,6 @@ Editable source: lifeflow-source.zip. Run pnpm install --frozen-lockfile then pn
 
 Records stay in this browser's IndexedDB. No desktop or local network required. Cross-device sync is not enabled. Export backups from Settings. Data from the previous origin must be exported there and imported at the new URL; it does not migrate automatically.
 
-234 automated checks passed. Responsive browser checks completed; physical iPhone installation, keyboard and offline checks remain pending.
+263 automated checks passed. Responsive browser checks completed; physical iPhone installation, keyboard and offline checks remain pending.
 
 No user records or credentials are included. See ASSET-LICENSES.md.
